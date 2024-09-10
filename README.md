@@ -25,6 +25,18 @@ O programa deve permitir ao usuário escolher entre as opções de adicionar um 
 
 O programa deve exibir quais carros foram removidos para retirar um carro específico na ordem, depois exibir como ficou a pilha resultante. A forma mais simples pode ser imprimir o passo a passo.
 
+### Avaliações
+
+- Trabalho (este): 4,0
+- Prova: 5,0
+- Prova integradora: 1,0
+
+### Entrega
+
+Enviem o código para o e-mail andre@andrenoel.com.br
+
+Pode ser o arquivo .c direto, pode ser via pastebin (site pra compartilhar texto).
+
 ### Dúvidas Frequentes
 
 #### Posso usar o ChatGPT para resolver?
