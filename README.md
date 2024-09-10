@@ -33,7 +33,7 @@ O programa deve exibir quais carros foram removidos para retirar um carro espec�
 
 ### Entrega
 
-Enviem o código para o e-mail andre@andrenoel.com.br
+Enviem o código para o e-mail andre@andrenoel.com.br até 16/set/2024 18:59:59
 
 Pode ser o arquivo .c direto, pode ser via pastebin (site pra compartilhar texto).
 
