@@ -8,38 +8,38 @@ typedef struct pilha {
     int dados[TAMANHO];
 } TPilha;
 
-TPilha pilha; 
+TPilha pilha;
 
-int tamanhoDaPilha() {
-    return pilha.fim;
+int tamanhoDaPilha(TPilha *p) {
+    return p->fim;
 }
 
-void insereNaPilha(int el) {
-    if (tamanhoDaPilha() >= TAMANHO) {
+void insereNaPilha(TPilha *p, int el) {
+    if (tamanhoDaPilha(p) >= TAMANHO) {
         printf("Pilha cheia!\n");
         return;
     }
     
-    pilha.dados[pilha.fim] = el;
-    pilha.fim++;
+    p->dados[p->fim] = el;
+    p->fim++;
 }
 
-int removeDaPilha() {
-    if (tamanhoDaPilha() <= 0) {
+int removeDaPilha(TPilha *p) {
+    if (tamanhoDaPilha(p) <= 0) {
         printf("Pilha vazia!\n");
         return -1;
     }
 
-    int el = pilha.dados[pilha.fim - 1];
-    pilha.fim--;
+    int el = p->dados[p->fim - 1];
+    p->fim--;
     return el;
 }
 
-void mostrarPilha() {
+void mostrarPilha(TPilha p) {
     int i;
     printf("\n\n");
-    for (i = pilha.fim - 1; i >= 0; i--) {
-        printf("| %d |\n", pilha.dados[i]);
+    for (i = p.fim - 1; i >= 0; i--) {
+        printf("| %d |\n", p.dados[i]);
     }
     printf("\n\n");
 }
@@ -58,16 +58,16 @@ int main() {
 
         switch (opcao) {
             case 1:
-                mostrarPilha();
+                mostrarPilha(pilha);
                 system("pause");
                 break;
             case 2:
                 printf("Escolha um número para adicionar: ");
                 scanf("%d", &add);
-                insereNaPilha(add);
+                insereNaPilha(&pilha, add);
                 break;
             case 3:
-                add = removeDaPilha();
+                add = removeDaPilha(&pilha);
                 printf("%d saiu da pilha\n", add);
                 system("pause");
                 break;
