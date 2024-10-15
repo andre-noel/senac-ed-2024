@@ -7,6 +7,17 @@ Arquivos usados na disciplina de Estruturas de Dados na Faculdade Senac
 - [Aula 2 - Recursividade](https://docs.google.com/presentation/d/19ouZ-xHy1_AQR-OQ3tvgJZiSYtujPVBzdhrug0dNxcI/edit?usp=sharing)
 - [Aula 3 - Ponteiros](https://docs.google.com/presentation/d/14WSw4Z7zJ6gZYYgZWfU_qo1XecudMZot4O6vvf7jLS4/edit?usp=sharing)
 
+## Exercício de Ordenação
+
+A partir dos arquivos na pasta "Ordenacao", escreva o algoritmo InsertionSort (aquela ordenação que usamos quando jogamos baralho 🃏).
+
+No arquivo `Dados.java` já tem a função `InsertionSort`, falta só terminar o conteúdo dela. 
+
+## Árvores Binárias de Busca
+
+- [Artigo de João Arthur Brunet - UFCG](https://joaoarthurbm.github.io/eda/posts/bst/)
+- [Artigo do freecodecamp](https://www.freecodecamp.org/portuguese/news/arvores-binarias-de-busca-bst-explicada-com-exemplos/)
+
 ## Trabalho
 
 Desenvolva um programa que simule o gerenciamento de um pequeno estacionamento. Cada carro que chega é estacionado em uma pilha (stack), e o estacionamento tem um número limitado de vagas. Quando um carro quer sair, os carros à frente dele precisam ser temporariamente removidos e, em seguida, recolocados na pilha.

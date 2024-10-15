@@ -17,6 +17,10 @@ public class Dados {
         return out;
     }
 
+    public void insertionSort() {
+
+    }
+
     public void bubbleSort() {
         for (int i = 0; i < this.dados.length; i++) {
             boolean troca = false;
